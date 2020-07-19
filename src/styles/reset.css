@@ -1,0 +1,17 @@
+html, body,
+h1, h2, h3, h4,
+header, footer,
+div, p, a,
+ul, ol, li,
+table, td, tr, th,
+img, span {
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,0.87);
+    font-family: 'Noto Sans Japanese', Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+}
+html{
+    background-color: rgba(0,0,0,0.1);
+}

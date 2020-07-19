@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="KSU Bus">
+
+<meta property="og:title" content="KSU Bus Checker" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="北3系統の乗り場情報" />
+<meta property="og:url" content="https://bus.kyoto-su.com" />
+<meta property="og:site_name" content="KSU Bus Checker" />
+<meta property="og:image" content="https://bus.kyoto-su.com/src/ogp.png" />
+
+<link rel="stylesheet" href="styles/reset.css">
+<link rel="stylesheet" href="styles/main.css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108737760-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-108737760-2');
+</script>
+<script>
+setTimeout("location.reload()",1000*30);
+</script>
+<title>KSU Bus Checker</title>
+</head>
+<body>
+<header>
+  北3乗り場情報
+</header>
+<article>
+  <div class="card">
+    <h2>~ 次のバス情報 ~</h2>
+    <p class="nextbus"></p>
+    <h2>~ 現在の状況 ~</h2>
+    <img src="https://jweb.kyoto-su.ac.jp/upload/webcam/buspool-bc1.jpg">
+    <div class="note">
+      ※注意<br>
+      最終更新:2019-3-21<br>
+      時刻表は<a href="https://www2.city.kyoto.lg.jp/kotsu/busdia/hyperdia/475031.htm" target="_blank">こちら</a>を使用.<br>
+      平日の授業あり日程のみ対応
+    </div>
+  </div>
+  
+</article>
+<footer>
+  &#169; <a href="https://suzuki.dev" target="_blank">Suzuki@Prog24</a>
+</footer>
+<script src="js/bus.js"></script>
+</body>
+</html>
